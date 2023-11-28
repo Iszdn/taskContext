@@ -1,0 +1,40 @@
+.show{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 18px;
+   
+}
+.s9{
+    color: #d7d7d7;
+    font-size: 14px;
+}
+.s56{
+    color: black;
+}
+select{
+    color: #d7d7d7;
+height: 30px;
+font-size: 13px;
+border-color: #d7d7d7;
+    max-width: 140px;
+    min-width: 140px;
+    background-color: #fff;
+    margin-right: 17.5px;
+}
+.lab{
+    font-size: 13px;
+    padding-right: 10px;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.page-btn{
+    width: 30px;
+    height: 40px;
+    border: none;
+    margin: 5px;
+}

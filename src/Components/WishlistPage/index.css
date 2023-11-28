@@ -1,0 +1,13 @@
+.wishlist-title{
+    color: black;
+}
+.shop{
+    color: #c96;
+font-size: 20px;
+}
+.wishlist{
+    padding: 50px;
+    text-align: center;
+    margin: 50px 0;
+    background-image: url("https://portotheme.com/html/molla/assets/images/page-header-bg.jpg");
+}

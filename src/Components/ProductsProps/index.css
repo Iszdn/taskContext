@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: inherit;
+
+}
+.image-product{
+    max-width: 280px;
+    max-height: 280px;
+    position: relative;
+}
+
+img{
+    width: 100%;
+    max-height: 280px;
+}
+.fa-heart{
+ position: absolute;
+ left: 0;
+ display: none;
+transform: translateY(-100%);
+cursor: pointer;
+color: #c96;
+font-size: 20px;
+background-color: white;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+text-align: center;
+padding-top: 4px;
+transition: all 0.8s;
+
+}
+.fa-heart:hover{
+    color: red;
+
+}
+.cards:hover .fa-heart{
+display: block;
+transition: all 0.9s;
+}
+.cards{
+    text-align: center;
+    padding: 2px;
+}
+.col-lg-12{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+}
+.col-lg-12 .image-product{
+    margin-right: 20px;
+    max-width: 180px;
+}
+
+.col-lg-6 .image-product{
+    width: 100%;
+}
+.col-lg-6{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center; 
+}
+
+.category-prod{
+    color: #777;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: -.01em;
+    margin-bottom: 0.3rem;
+}
+.name-prod{
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 1.25;
+    letter-spacing: -.01em;
+    color: #333333;
+transition: all 0.3s;
+margin-bottom: 0.2rem;
+}
+.name-prod:hover{
+color: #c96;
+transition: all 0.3s;
+}
+
+.price-prod{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.25;
+    color: #c96;
+    margin-bottom: 0.5rem;
+}

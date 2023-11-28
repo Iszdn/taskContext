@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#main{
+    padding: 70px 0;
+}
+li{
+    list-style: none;
+    padding-top: 10px;
+    
+}
+input[type="checkbox"]{
+margin-right: 10px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    padding-left: 0;
+}
+
+.widget-clean{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+.clean{
+    color: #cc9966;
+    font-size: 12px;
+}
+
+
+ul{
+    cursor: pointer;
+}
+.size-filter, .brand-filter, .price-filter, .colour-filter, .category-filter{
+    display: block;
+}
+
+ .open-price, .open-size, .open, .open-brand{
+    display: none;
+}
+.open-colour{
+    display: none !important;
+}
+.fil-text{
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+.sort-asc, .sort-des{
+    margin-bottom: 10px;
+    border: none;
+    background-color: transparent;
+}
+.colour-filter{
+    display: flex;
+    gap: 10px;
+    
+}
+.color{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+
+}
+.blue{
+    background-color: lightblue;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.brown{
+    background-color: rgb(165, 108, 42);
+}
+.beage{
+    background-color: burlywood;
+}
+.black{
+    background-color: black;
+}
+.orange{
+    background-color: orange;
+}
+.white{
+    border: 1px solid wheat;
+    width: 24px;
+    height: 24px;
+}
